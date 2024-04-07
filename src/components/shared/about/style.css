@@ -1,0 +1,125 @@
+/* About */
+
+.item-about {
+    border: 2px solid red;
+}
+
+.p1 {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.p {
+    width: 105px;
+    height: 22px;
+    left: 139px;
+    top: 995px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+}
+
+.headab {
+    position: absolute;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.headab1 {
+    width: 452px;
+    height: 126px;
+    left: 139px;
+    top: 1040px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 63px;
+}
+
+.lorem {
+    position: absolute;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    color: #6A6A6A;
+}
+
+.lorem1 {
+    width: 253px;
+    height: 125px;
+    left: 139px;
+    top: 1189px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.group {
+    position: absolute;
+    width: 650px;
+    height: 706px;
+    left: 611px;
+    top: 854px;
+}
+
+.button-ex {
+    position: absolute;
+    height: 17px;
+    left: 31.18%;
+    right: 31.18%;
+    top: calc(50% - 17px/2 + 0.68px);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@media (max-width: 600px) {
+    .group {
+        position: absolute;
+        width: 195px;
+        height: 50px;
+        left: 320px;
+        top: 420px;
+    }
+
+    .lorem1 {
+        width: 253px;
+        height: 125px;
+        left: 139px;
+        top: 1189px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .headab1 {
+        width: 452px;
+        height: 126px;
+        left: 139px;
+        top: 1040px;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 63px;
+    }
+
+    .p {
+        width: 105px;
+        height: 22px;
+        left: 139px;
+        top: 995px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.2em;
+    }
+}

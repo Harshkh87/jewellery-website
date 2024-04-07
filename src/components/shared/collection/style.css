@@ -1,0 +1,80 @@
+/* collection */
+.latest {
+    position: absolute;
+    /* border: 2px solid red; */
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.latest1{
+    width: 217px;
+    left: calc(50% - 217px/2 + 0.5px);
+    top: 1490px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+/* weekly best seller */
+.weekly {
+    /* border: 2px solid red; */
+    position: absolute;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.weekly1{
+    width: 749px;
+    left: calc(50% - 749px/2 - 0.5px);
+    top: 1528px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 63px;
+}
+
+.item-collect {
+    /* border: 2px solid red; */
+    padding: 25px;
+    position: absolute;
+    width: 193px;
+    height: 138.64px;
+    left: 116px;
+    top: 1730px;
+    /* float:left; */
+    display: flex;
+}
+
+.item-collection {
+    float: left;
+    border: 2px solid red;
+    padding: 75px;
+
+}
+
+@media (max-width: 600px) {
+    latest1{
+    width: 217px;
+    left: calc(50% - 217px/2 + 0.5px);
+    top: 1355px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.weekly1{
+    width: 749px;
+    left: calc(50% - 749px/2 - 0.5px);
+    top: 1390px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 63px;
+}
+
+}

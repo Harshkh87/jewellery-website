@@ -1,0 +1,83 @@
+.ringheroheading {
+    position: absolute;
+    height: 600px;
+}
+
+.boxxx {
+    padding: 550px;
+}
+
+.ringheroheading1 {
+    position: absolute;
+    top: 217px;
+    left: 285px;
+    font-size: 60px;
+}
+
+.ringheroheading2 {
+    position: absolute;
+    top: 296px;
+    left: 285px;
+    font-size: 60px;
+}
+
+.boxx {
+    position: absolute;
+    top: 400px;
+    left: 550px;
+}
+
+@media (max-width: 1024px) {
+
+    .ringheroheading {
+        height: 600px;
+    }
+
+    .ringheroheading1 {
+        position: absolute;
+        top: 222px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ringheroheading {
+        height: 600px;
+    }
+
+    .ringheroheading1 {
+        position: absolute;
+        top: 222px;
+    }
+}
+
+@media (max-width: 600px) {
+    .ringheroheading {
+        position: absolute;
+        height: 600px;
+        width: 100%;
+    }
+    
+    .boxxx {
+        padding: 550px;
+    }
+    
+    .ringheroheading1 {
+        position: absolute;
+        top: 217px;
+        left: 285px;
+        font-size: 60px;
+    }
+    
+    .ringheroheading2 {
+        position: absolute;
+        top: 296px;
+        left: 285px;
+        font-size: 60px;
+    }
+    
+    .boxx {
+        position: absolute;
+        top: 400px;
+        left: 550px;
+    }
+}

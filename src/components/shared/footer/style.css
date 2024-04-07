@@ -1,0 +1,14 @@
+.footer {
+    height: 100%;
+    width: 100%;
+    /* background-color: #E8D6C6; */
+    background: #580140;
+    /* margin-top: auto; */
+    /* position: fixed; */
+  }
+
+  .body-footer{
+    background-image: url('FooterImage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,91 @@
+.customp{
+  text-transform: uppercase;
+  color: #333333;
+  font-family: 'EB Garamond';
+  font-style: normal;
+  position: absolute;
+}
+
+.markup {
+    width: 663px;
+    height: 210px;
+    left: 80px;
+    top: 222px;    
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+    /* or 117% */   
+  }
+
+.btn-hero{
+  position: absolute;
+  top: 465px;
+  left: 130px;
+}
+
+  @media (max-width: 1180px) {
+    .markup{
+      width: 336px;
+      height: 67px;
+    left: 121px;
+    top: 210px;    
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 48px;
+    }
+
+    .btn-hero{
+      position: absolute;
+      top: 375px;
+      left: 138px;
+    }
+    .hero-image{
+      height: 500px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .markup{
+      width: 245px;
+      height: 67px;
+    left: 83px;
+    top: 168px;    
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 35px;
+    }
+
+    .btn-hero{
+      position: absolute;
+      top: 291px;
+      left: 83px;
+    }
+
+    .hero-image{
+      height: 400px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .markup{
+      width: 109px;
+      height: 67px;
+    left: 65px;
+    top: 149px;    
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    }
+
+    .btn-hero{
+      position: absolute;
+      top: 215px;
+      left: 65px;
+    }
+
+    .hero-image{
+      height: 300px;
+      /* width: 100%; */
+      /* position: relative; */
+    }
+  }

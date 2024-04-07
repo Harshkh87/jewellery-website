@@ -1,0 +1,132 @@
+/* navbar */
+
+.rectangle {
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    background: #EFDECF;
+}
+
+.logo {
+    position: absolute;
+    left: 80px;
+    top: 21px;
+    font-family: 'EB Garamond';
+    font-size: 36px;
+    line-height: 47px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+/* frame */
+
+.ring {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: 'EB Garamond';
+    color: #000000;
+}
+
+.typography {
+    font-family: EB Garamond;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.layout {
+    width: 663px;
+    height: 210px;
+    top: 222px;
+    left: 80px;
+}
+
+/* button on navbar */
+
+
+/* home page */
+
+.rectangle2 {
+    position: absolute;
+    width: 232px;
+    height: 46px;
+    left: 81px;
+    top: 510px;
+
+    background: #580140;
+    border-radius: 7px;
+}
+
+.contact {
+
+    position: absolute;
+    /* width: 80px; */
+    /* height: 31px; */
+    left: 118px;
+    top: 515px;
+
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #FAF7F0;
+}
+
+.companylogo {
+    width: 1477px;
+}
+
+/* 03 */
+
+.pic03 {
+    position: absolute;
+    width: 451px;
+    height: 415px;
+    left: 1484px;
+    top: 123px;
+
+    /* background: url(03 2.jpg); */
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+
+/* navbar 2 */
+
+.frame2 {
+    position: absolute;
+    width: 769px;
+    height: 27px;
+    left: 336px;
+    top: 31px;
+}
+
+
+
+.contact1 {
+    position: absolute;
+    width: 80px;
+    height: 31px;
+    left: 1241px;
+    top: 29px;
+    /* padding: 5px 5px 5px 5px; */
+
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #FFFFFF;
+}

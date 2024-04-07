@@ -1,0 +1,19 @@
+/* .imghh{
+    width: 700px;
+    height: 400px;
+} */
+
+/* Add this to your CSS file or style section */
+.slide-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Ensure the content takes the full height of the slide */
+  }
+  
+  .slide-content img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Adjust the object-fit property as needed */
+  }
+  

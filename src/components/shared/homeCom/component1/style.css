@@ -1,0 +1,10 @@
+.body-about{
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* border: 2px solid red; */
+}
+/* 
+.chakra-container{
+    border: 2px solid red;
+} */

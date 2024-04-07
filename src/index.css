@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.button-sy3{
+  border-radius: 2%;
+  width: 160px;
+}
+
+.button-sy4{
+  border: 1px solid #580140;
+  height: 40px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.button-sy5{
+  padding: 10px;
+  width: 580px;
+  /* color: #580140; */
+}
+
+@media (max-width: 500px) {
+  .button-sy3{
+    border-radius: 2%;
+    width: 120px;
+    font-size: 11px;
+  }
+
+  .button-sy5{
+    padding: 10px;
+    width: 580px;
+    /* color: #580140; */
+  }
+}
+
+
+
+
+
+/* .css-1tq00ko{
+  font-size: var(--chakra-fontSizes-md);;
+} */
